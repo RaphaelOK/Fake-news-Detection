@@ -1,0 +1,9 @@
+Fake News Prediction Model
+
+This is a machine learning model that predicts whether a given news article is fake or genuine.
+
+Model Architecture
+This model uses a neural network with a feedforward architecture. It has one hidden layer with 50 neurons and uses the ReLU activation function. The output layer is a single neuron with a sigmoid activation function, which produces a probability score between 0 and 1. If the score is greater than 0.5, the model predicts that the news article is fake, otherwise it predicts that it is genuine.
+
+Dataset
+The dataset used to train this model is included in this repository. 
